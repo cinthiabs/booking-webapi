@@ -14,7 +14,7 @@ builder.Services.AddSwaggerGen(c =>
     {
         Title = "API Booking",
         Version = "v1",
-        Description = "API Booking para gerir reservas"
+        Description = "API Booking para gestão de reservas."
     });
 });
 builder.Services.AddCors(options =>
